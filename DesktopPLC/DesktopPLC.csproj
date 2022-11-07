@@ -17,18 +17,11 @@
 
   <ItemGroup>
     <PackageReference Include="Devinno" Version="1.1.0.3" />
-    <PackageReference Include="Devinno.Forms" Version="1.1.0" />
+    <PackageReference Include="Devinno.Forms" Version="1.1.0.2" />
+    <PackageReference Include="Devinno.PLC" Version="1.0.0" />
+    <PackageReference Include="Devinno.PLC.Interface" Version="1.0.0" />
     <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.3.1" />
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.3.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Devinno.PLC">
-      <HintPath>..\..\Devinno.PLC\Devinno.PLC\bin\Debug\net5.0\Devinno.PLC.dll</HintPath>
-    </Reference>
-    <Reference Include="Devinno.PLC.Interface">
-      <HintPath>..\..\Devinno.PLC\Devinno.PLC\bin\Debug\net5.0\Devinno.PLC.Interface.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
